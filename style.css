@@ -20,6 +20,9 @@ body {
 }
 
 .search-input {
+  width: 30%;
+  min-width: 50px;
+  max-width: 600px
   padding: 0.9375rem 12.5rem 0.9375rem 12.5rem;
   border: 1px solid grey;
   border-radius: 24px;
