@@ -1,33 +1,46 @@
-@import url("https://fonts.googleapis.com/css2?familyfamily=Open+Sans&display=swap");
-body {
-  background-color: #202124;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
-.container {
+
+html, body {
+  background-color: #202124;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  position: relative;
   margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .logo-img {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  margin-bottom: 1.875rem;
-  display: block;
-  width: 50%;
+  width: 270px;
+  height: 90px;
 }
-
 .search-input {
-  width: 30%;
-  min-width: 50px;
-  max-width: 600px;
-  padding: 0.9375rem 12.5rem 0.9375rem 12.5rem;
+  width: 500px;
+  height: 40px;
   border: 1px solid grey;
   border-radius: 24px;
+  font-family: arial;
+  font-size: 14px;
+  padding-left: 20px;
   background-color: #202124;
   color: white;
+  outline: none;
 }
 .search-input:hover {
   background-color: #303134;
@@ -39,11 +52,12 @@ body {
 }
 .btn {
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   color: #e8eae1;
   background-color: #303134;
   border: none;
   border-radius: 0.3125rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
-  margin: 1.875rem 0.625rem 0rem 0.625rem;
+  margin: 10px;
+  cursor: pointer;
 }
