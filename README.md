@@ -6,7 +6,6 @@ This is a google clone created by JarneDM. Our great contributors have helped us
 
   <!-- - [Screenshot](#screenshot) -->
 
-- [Links](#links)
 - [Our process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -17,10 +16,6 @@ This is a google clone created by JarneDM. Our great contributors have helped us
 <!-- ### Screenshot
 
 ![](./images/Screenshot.png) -->
-
-### Links
-
-- Live Site URL: [Link](https://google-clone-jarne.vercel.app/)
 
 ### Built with
 
