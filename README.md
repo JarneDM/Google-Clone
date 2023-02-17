@@ -2,6 +2,8 @@
 
 This is a google clone created by JarneDM. Our great contributors have helped us create this project.
 
+#### ⛔ Note: I am no longer contributing to this project!
+
 ## Table of contents
 
   <!-- - [Screenshot](#screenshot) -->
